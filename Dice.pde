@@ -1,10 +1,13 @@
+Die one = new Die();
 void setup()
 {
 	noLoop();
 }
 void draw()
 {
-	//your code here
+	background(0);
+one.roll();
+one.show();
 }
 void mousePressed()
 {
