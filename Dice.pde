@@ -32,7 +32,7 @@ boolean six;
 	{
 		myX = x;
 myY = y;
-cir = 3;
+cir = 6;
 //myW = w;
 //rect(x, y, 20, w);
 	}
@@ -67,9 +67,15 @@ cir = 3;
 	{
   fill(255);
 		rect(myX, myY, 20, 20);
+
 if (one == true)
     {
-      ellipse(myX/2, myY/2, cir, cir);
+      fill(0);
+      ellipse(10, 10, cir, cir);
+    }
+    else if(two == true)
+    {
+      
     }
 	}
 }
