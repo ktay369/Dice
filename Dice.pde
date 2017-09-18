@@ -21,7 +21,9 @@ void draw()
     textSize(50);
     text("Total Sum: "+total, 150, 200);
     fill((int)(Math.random()*256), (int)(Math.random()*256), (int)(Math.random()*256), 1000);
-    
+    if(total>=5000){
+      text("YOU WIN", 150, 300);
+    }
 }
 void mousePressed()
 {
